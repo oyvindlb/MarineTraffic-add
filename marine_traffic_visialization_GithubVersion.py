@@ -10,7 +10,7 @@ Created on Wed Jan 13 16:47:13 2021
 #pip install Marine-Traffic-API
 
 import os
-os.environ['PROJ_LIB'] = 'C:/Users/USERNAME/Anaconda3/Lib/site-packages/mpl_toolkits/basemap'
+os.environ['PROJ_LIB'] = 'INSERT DIRECTORY FOR BASEMAP LIBRARY'
 from mpl_toolkits.basemap import Basemap
 import numpy as np
 import matplotlib.pyplot as plt
